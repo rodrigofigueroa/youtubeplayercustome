@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="./style.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+
+
+</head>
+<body>
+<section class="datos-facturacion">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-lg-19 col-md-12 col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="nav-reg" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">Home</li>
+                      <li class="breadcrumb-item"><a href="#">Educación</a></li>
+                      <li><a href="#"> </a></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+             <section class="module-1 wrapper" id="module_view" data-module="module-1">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-12 col-md-3">
+                        <figure class="mi-univer"><a data-link="<?=base_url('/');?>"><img src="data:image/png;base64,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" alt=""></a></figure>
+                      </div>
+                      <div class="col-12 col-md-9">
+                      <h1 class="module-page-title">
+                          ¡BIENVENIDA FARMACIA </h1>
+                        <p class="module-page-subtitle">
+                          Build a Valuable Online Presence                    </p>
+<p class="module-page-teaser">This module explains how to set up your website to ensure it is easy to navigate. It then moves onto the importance of understanding your audience, and how to influence them online. And finally, it looks at the vital role 'functionality' plays, and how to use it to create a website your customers will love.</p>
+                      </div>
+                    </div>                        
+                  </div>
+                  <div class="col-12 mt-5">
+                    <div class="video" id="video_loader" data-player="video103895338" data-jump="start">
+                      <!-- <iframe id="video103895338" src="//player.vimeo.com/video/103895338?api=1&amp;player_id=video103895338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                        
+                      </iframe> -->
+                      
+                      <div class="contenedor-video">
+                        <div id="video-yt">
+                            
+                        </div>
+                        <video class="video-ju" src="" class="tag-video" id="video-youtube"></video>
+                        
+                          <div class="juice">
+                            <div class="orange-juice"></div>
+                            <input type="range" min="0" max="100" value="0" id="range-video" class="range-video">
+                          </div>
+                        
+                        <div class="button-video">
+                          <i class="far fa-play-circle"></i>
+                          </div>
+                      </div>  
+                      <div class="social">
+              <ul>
+                <!-- <li><span>Compartir</span></li>
+                <li><a class="lk" href="#" title="Linkedin" data-url="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:8888/MSD_eLearningrespaldo/modules/module-1/build-a-valuable-online-presence&amp;=title=Virgin Media Business&summary=Need+to+improve+your+digital+skills%3F+Check+out+this+short+clip+on+building+a+valuable+online+presence+from+Virgin+Media+Business.+Register+for+the+free+tutorials+and+immediately+start+growing+your+business+online+-+virg.in%2FemAGe&source=localhost"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="tw" href="https://twitter.com/intent/tweet?text=Need+to+improve+your+%23digitalskills%3F+Check+out+this+clip+-+virg.in%2FemAGe+-+re+%23growing+your+business+%23online+from+%40vmbusiness" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="fb" href="#" title="Facebook" data-url="http://virg.in/emAGe"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="em" href="mailto:?subject=The Big Digital Skills Hub&amp;body=Need to improve your digital skills? Check out this short clip on building a valuable online presence from Virgin Media Business. Register for the free tutorials and immediately start growing your business online: www.learndigitalskills.co.uk/modules/module-1/build-a-valuable-online-presence" title="E-Mail"><i class="fa fa-envelope"></i></a></li> -->
+              </ul>
+              <div class="fixer"></div>
+            </div>                    </div>
+                  </div>
+                  <div class="col-12">
+                    
+                <!-- <p class="center desktop-only"><button id="start" class="btn-purple btn-big" data-link="http://localhost:8888/MSD_eLearningrespaldo/resources#build-a-valuable-online-presence">INICIA TU APRENDIZAJE</button></p> -->
+            </section>
+                  </div>
+                  <div class="col-12">
+                    
+                    <div class="get-started" id="start">
+                      
+                      <!-- <h3>Ready for action?</h3>
+                      <p>To acces all the free tutorials you just need register or login by clicking the button below.</p> -->
+                      
+                      <p class="start-buttons">
+                        <button class="btn-white start" data-link="modules">INICIA TU APRENDIZAJE</button>
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+            </section>
+          </div>
+          </div>
+        </div>
+        </section>
+        <script src="./main.js"></script>
+</body>
+</html>
