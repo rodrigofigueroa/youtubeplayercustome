@@ -1,5 +1,5 @@
 
- var idDailyM = 'x71g0lf';
+ var idDailyM = 'x2kc7lq';
  var player = DM.player(document.getElementById('video-yt'), {
     video: idDailyM,
     width: '100%',
@@ -27,6 +27,7 @@
     }
     //player.togglePlay();
   console.log(player.duration);
+  console.log(player.paused);
   });
 
 
